@@ -1,0 +1,13 @@
+{
+    "name": "PostIt",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "post selected text to...",
+    "permissions": [
+        "contextMenus"
+    ],
+    "background": {
+        "scripts": [ "main.js" ]
+    },
+    "options_page": "options.html"
+}
